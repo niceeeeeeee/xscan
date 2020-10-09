@@ -1,13 +1,13 @@
 # xscan  
-＜br＞＜/br＞
+＜/br＞
 蓝军端口扫描及web服务探测  
-＜br＞＜/br＞
+＜/br＞
  	
 ## main.py 端口扫描入口  
-＜br＞＜/br＞
+＜/br＞
 python main.py xmas_scan -host "xx.xx.xx.xx/24" -port "xx,xx" -pool 100  
-＜br＞＜/br＞
-＜br＞＜/br＞
+＜/br＞
+＜/br＞
 ### 参数说明  
 -mode       端口嗅探模式 tcp_scan,syn_scan,xmas_scan，fin_scan，null_scan，window_scan，udp_scan
 
@@ -22,15 +22,15 @@ python main.py xmas_scan -host "xx.xx.xx.xx/24" -port "xx,xx" -pool 100
 -outputfile 输出文件 指定：xxx.txt，默认：host_port_status.txt
 
 -timeout    超时时间 指定：'10'，默认：1s
-＜br＞＜/br＞
-＜br＞＜/br＞
-＜br＞＜/br＞
+＜/br＞
+＜/br＞
+＜/br＞
 ## xhttp.py web服务检测入口  
-＜br＞＜/br＞
+＜/br＞
 
 python xhttp.py -pool 100  
-＜br＞＜/br＞
-＜br＞＜/br＞
+＜/br＞
+＜/br＞
 ### 参数说明  
 
 -proxy      http代理 指定代理："http:ip:port" or "https:ip:port"，不使用代理：默认不使用代理
