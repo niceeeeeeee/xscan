@@ -2,7 +2,7 @@
 
 xscan是一款简单高效的端口扫描及web服务探测工具，在某些场景对开源扫描工具检测较为严格，极有可能导致IP封禁，对后续工作造成不便。
 
-## 端口扫描  main.py 
+## 端口扫描
 
 **端口扫描Demo**
 
@@ -26,7 +26,7 @@ python main.py xmas_scan -host "xx.xx.xx.xx/24" -port "xx,xx" -pool 100
 
 -timeout    超时时间 指定：'10'，默认：1s
 
-## web服务检测  xhttp.py
+## web服务检测
 
 **web服务检测Demo**
 
